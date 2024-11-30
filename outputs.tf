@@ -17,6 +17,3 @@ output "db_private_ip" {
 output "db_public_ip" {
   value = google_sql_database_instance.db1.public_ip_address
 }
-output "db_connection_url" {
-  value = google_secret_manager_secret.db_connection_url.secret_id
-}
