@@ -20,7 +20,6 @@ variable "network_name" {
 
 variable "project_id" {
   type        = string
-  default     = "g4gfishfood1"
 }
 
 variable "database_version" {
